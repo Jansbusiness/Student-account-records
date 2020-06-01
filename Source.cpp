@@ -132,16 +132,14 @@ void ListRecord()
 		getline(ip, section, ',');
 
 		cout << "Name: " << first_name + last_name << '\n';
-		cout << "Course: " <<course<< '\n';
-		cout << "Section: " <<section<< '\n';
-		cout << "-------------------"  << '\n';
+		cout << "Course: " << course << '\n';
+		cout << "Section: " << section << '\n';
+		cout << "-------------------" << '\n';
 	}
 
 	ip.close();
 	system("pause");
 }
-
-
 int main()
 {
 
